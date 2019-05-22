@@ -6,7 +6,7 @@ function myAnimal(animal) {
 }
 
 function yourAnimal(animal) {
-  // note: this seems like cheating but it's the best way to make this 
+  // note: this seems like cheating but it's the best way to make this work in terms of scope
   animal = 'cat';
   // How can we make sure that this function
   // and the above function both pass?
